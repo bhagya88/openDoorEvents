@@ -16,14 +16,11 @@ This application provided a visual representation of events on the map. When the
 ### Challenges faced
 
 * How to use Eventful, Google maps and Weather APIs?
-* How to handle AJAX calls, how to feed the 
-* How to get events stored in the database onto full calender?
+* How to handle AJAX calls, how to feed the address fetched from eventful API to Google maps API?
 
 ### Solutions found
 
-* Reading the documentation several times and looking at code samples helped understanding Full Calender.io.
-* Finding the link for public holidays from Google Calender API and calling it using Full Calender library function helped solve the the problem.
-* Writing API route for the events and seperating scheduled and unschdeduled events and passing them onto Full Calender functions worked.
+* Reading the documentation of the APIs, code examples given on their site helped understand and use them
+* Wrapping the API callbacks in promises and chaining the promises helped solve the problem.
 
-
-#### Developed by Bhagya and Chin Long
+#### Developed by Bhagya, Nishtha Arora and Rajya Lakshmi
